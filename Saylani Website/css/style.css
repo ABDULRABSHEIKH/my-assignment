@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'SocialType';
+    src: url('font/SocialType.ttf');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.topbar1 {
+    border: 1px solid #316dc3;
+    background: #316dc3;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s-link {
+    display: inline-block;
+    border: 1px solid #316dc3;
+    width: 120px;
+    display: block;
+    position: absolute;
+    left: 23px;
+    top: -7px;
+}
+
+.social-link {
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    font-family: 'SocialType';
+}
+
+.midtext {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    display: block;
+    position: absolute;
+    right: 392px;
+    top: 15px;
+}
+
+.topbar2 {
+    border: 1px solid #eaeaeb;
+    background: #eaeaeb;
+    height: 80px;
+}
+
+.saylani-logo {
+    border: 1px solid #eaeaeb;
+    width: 250px;
+    position: absolute;
+    left: 15%;
+    top: 60px;
+}
+
+.menu-bar {
+    position: absolute;
+    left: 40%;
+    top: 70px;
+    max-width: 669px;
+}
+
+.navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    border: 1px solid #316dc3;
+    border-radius: 30px;
+    border-width: 10px;
+    background-color: #316dc3;
+    color: rgb(255, 255, 255);
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+}
+
+.intro-img {
+    min-width: 2000px;
+    height: 600px;
+    margin: auto;
+}
+
+.news-bar {
+    display: block;
+    margin: 5px auto 10px;
+    border: 1px solid #316dc3;
+    background-color: #316dc3;
+    text-align: center;
+    width: 900px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.intro-img {
+    /* border: 1px solid #eaeaeb; */
+    background: #eaeaeb;
+    height: 800px;
+    width: 100%;
+}
+
+.centertext {
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.para1 {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 26px;
+    width: 1208px;
+    font-size: 12pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.counter {
+    background: #0061e0;
+    height: 300px;
+}
+
+.doing {
+    border: 1px solid #eaeaeb;
+    background: #f1f7ff;
+    height: 500px;
+}
+
+.boxes {
+    margin: auto;
+    height: 500px;
+    width: 50%;
+    display: flex;
+}
+
+.box {
+    border: 1px solid red;
+    height: 134px;
+    width: 372px;
+}
